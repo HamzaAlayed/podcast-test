@@ -2,7 +2,7 @@ name: Generate Podcast Feeds
 on: [push]
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     setps:
       - name: checkout repo
         uses: actions/checkout@v3
